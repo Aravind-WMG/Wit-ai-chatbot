@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#chatbot-wrapper h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+section#chatbot-wrapper {
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.bot::before {
+    content: "BOT : ";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bot {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+section#input-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button-wrap {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.user {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.user::before {
+    content: "ME : ";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#typing-loader {
+    display: none;
+}
